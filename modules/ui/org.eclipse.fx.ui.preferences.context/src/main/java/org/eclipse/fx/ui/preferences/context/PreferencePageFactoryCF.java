@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.ui.preferences.context;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.e4.core.contexts.ContextFunction;
 import org.eclipse.e4.core.contexts.ContextInjectionFactory;

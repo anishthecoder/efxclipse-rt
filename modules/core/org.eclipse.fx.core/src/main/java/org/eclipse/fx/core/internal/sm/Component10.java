@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.core.internal.sm;
 
-import javax.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlRootElement;
 
 /**
  * Component in version 1.0.0

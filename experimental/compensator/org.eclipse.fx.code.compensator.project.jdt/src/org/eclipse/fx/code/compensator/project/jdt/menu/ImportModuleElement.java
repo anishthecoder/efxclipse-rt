@@ -15,7 +15,7 @@ package org.eclipse.fx.code.compensator.project.jdt.menu;
 import java.nio.file.Path;
 import java.util.concurrent.Future;
 
-import javax.inject.Named;
+import jakarta.inject.Named;
 
 import org.eclipse.fx.code.compensator.model.workbench.Module;
 import org.eclipse.fx.code.compensator.model.workbench.Project;

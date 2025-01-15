@@ -12,8 +12,8 @@
  *******************************************************************************/
 package org.eclipse.fx.ui.workbench.renderers.fx;
 
-import javax.inject.Inject;
-import javax.inject.Named;
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 
 import org.eclipse.e4.core.contexts.IEclipseContext;
 import org.eclipse.e4.core.di.annotations.Optional;

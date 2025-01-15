@@ -18,7 +18,7 @@ import java.awt.Label;
 import javafx.embed.swing.SwingNode;
 import javafx.scene.layout.BorderPane;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;

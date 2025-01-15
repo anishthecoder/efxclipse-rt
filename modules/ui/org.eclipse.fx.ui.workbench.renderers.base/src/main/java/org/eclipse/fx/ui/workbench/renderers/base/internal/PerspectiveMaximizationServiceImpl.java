@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.ui.workbench.renderers.base.internal;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.e4.ui.model.application.ui.MUIElement;
 import org.eclipse.e4.ui.model.application.ui.advanced.MPerspective;

@@ -12,7 +12,7 @@
  *******************************************************************************/
 package test.issue12.app;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;

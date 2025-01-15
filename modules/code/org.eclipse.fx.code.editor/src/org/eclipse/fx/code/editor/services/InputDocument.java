@@ -12,9 +12,9 @@
 *******************************************************************************/
 package org.eclipse.fx.code.editor.services;
 
-import javax.annotation.PreDestroy;
-import javax.inject.Inject;
-import javax.inject.Named;
+import jakarta.annotation.PreDestroy;
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 
 import org.eclipse.fx.code.editor.Constants;
 import org.eclipse.fx.code.editor.SourceFileInput;

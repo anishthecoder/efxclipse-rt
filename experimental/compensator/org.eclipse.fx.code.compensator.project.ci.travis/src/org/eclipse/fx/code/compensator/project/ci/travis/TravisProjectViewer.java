@@ -17,7 +17,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.web.WebErrorEvent;
 import javafx.scene.web.WebView;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 public class TravisProjectViewer {
 	@PostConstruct

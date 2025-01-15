@@ -15,7 +15,7 @@ package org.eclipse.fx.code.editor.configuration.text;
 import java.util.List;
 import java.util.Map;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.fx.code.editor.Input;
 import org.eclipse.fx.code.editor.InputContext;

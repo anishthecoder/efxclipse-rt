@@ -19,8 +19,8 @@ import java.util.Map;
 import javafx.scene.Node;
 import javafx.scene.layout.BorderPane;
 
-import javax.annotation.PostConstruct;
-import javax.inject.Inject;
+import jakarta.annotation.PostConstruct;
+import jakarta.inject.Inject;
 
 import org.eclipse.e4.core.contexts.ContextInjectionFactory;
 import org.eclipse.e4.core.contexts.IEclipseContext;

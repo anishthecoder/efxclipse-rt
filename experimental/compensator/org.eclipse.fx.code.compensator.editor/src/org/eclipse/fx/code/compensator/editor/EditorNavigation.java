@@ -12,8 +12,8 @@
  *******************************************************************************/
 package org.eclipse.fx.code.compensator.editor;
 
-import javax.annotation.PostConstruct;
-import javax.inject.Inject;
+import jakarta.annotation.PostConstruct;
+import jakarta.inject.Inject;
 
 import org.eclipse.fx.core.URI;
 import org.eclipse.fx.ui.services.resources.GraphicsLoader;

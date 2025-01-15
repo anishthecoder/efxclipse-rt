@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.testcases.e4.tool;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 import javafx.scene.Group;
 

@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.ui.workbench.fx.perspective;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.e4.ui.model.application.ui.advanced.MPerspective;
 import org.eclipse.e4.ui.model.application.ui.basic.MWindow;

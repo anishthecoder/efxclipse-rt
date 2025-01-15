@@ -15,8 +15,8 @@ package org.eclipse.fx.core.di.context.tests;
 import java.time.Instant;
 import java.util.UUID;
 
-import javax.inject.Inject;
-import javax.xml.bind.annotation.XmlRootElement;
+import jakarta.inject.Inject;
+import jakarta.xml.bind.annotation.XmlRootElement;
 
 import org.eclipse.core.runtime.preferences.ConfigurationScope;
 import org.eclipse.core.runtime.preferences.IEclipsePreferences;

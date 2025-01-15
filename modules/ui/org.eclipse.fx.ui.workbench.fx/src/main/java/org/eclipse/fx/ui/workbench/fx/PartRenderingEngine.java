@@ -15,8 +15,8 @@ package org.eclipse.fx.ui.workbench.fx;
 import java.util.Collection;
 import java.util.Hashtable;
 
-import javax.inject.Inject;
-import javax.inject.Named;
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 
 import org.eclipse.e4.core.contexts.ContextInjectionFactory;
 import org.eclipse.e4.core.contexts.IEclipseContext;

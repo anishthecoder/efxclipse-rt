@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.code.compensator.project.internal.commands;
 
-import javax.inject.Named;
+import jakarta.inject.Named;
 
 import org.eclipse.e4.core.di.annotations.Execute;
 import org.eclipse.fx.code.compensator.editor.VCSInput;

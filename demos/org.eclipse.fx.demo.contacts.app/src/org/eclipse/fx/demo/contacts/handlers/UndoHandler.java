@@ -14,7 +14,7 @@
 package org.eclipse.fx.demo.contacts.handlers;
 
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 import org.eclipse.e4.core.di.annotations.CanExecute;
 import org.eclipse.e4.core.di.annotations.Execute;
 import org.eclipse.emf.common.command.CommandStack;

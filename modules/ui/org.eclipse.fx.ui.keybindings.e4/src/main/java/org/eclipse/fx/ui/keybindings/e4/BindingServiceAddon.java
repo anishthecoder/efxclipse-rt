@@ -13,7 +13,7 @@
 
 package org.eclipse.fx.ui.keybindings.e4;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 import org.eclipse.core.commands.contexts.ContextManager;
 import org.eclipse.e4.core.contexts.ContextInjectionFactory;

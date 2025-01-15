@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.ui.workbench.base.internal;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.e4.core.services.log.ILoggerProvider;
 import org.eclipse.e4.core.services.log.Logger;

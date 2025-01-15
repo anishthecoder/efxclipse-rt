@@ -20,8 +20,8 @@ import java.util.Set;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 
 import org.eclipse.e4.ui.model.application.ui.MUIElement;
 import org.eclipse.fx.ui.workbench.renderers.base.widget.WCallback;

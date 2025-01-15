@@ -22,7 +22,7 @@ import javafx.scene.Node;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.apache.commons.lang.text.StrSubstitutor;
 import org.eclipse.e4.core.di.annotations.Optional;

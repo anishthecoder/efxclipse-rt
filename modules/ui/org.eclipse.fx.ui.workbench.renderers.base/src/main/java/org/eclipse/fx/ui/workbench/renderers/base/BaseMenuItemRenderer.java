@@ -15,7 +15,7 @@ package org.eclipse.fx.ui.workbench.renderers.base;
 import java.util.Collection;
 import java.util.Iterator;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.core.commands.ParameterizedCommand;
 import org.eclipse.e4.core.contexts.IEclipseContext;

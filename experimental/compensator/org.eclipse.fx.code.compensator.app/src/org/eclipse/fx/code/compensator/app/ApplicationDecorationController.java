@@ -27,7 +27,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.WindowEvent;
 import javafx.util.Duration;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.e4.core.services.events.IEventBroker;
 import org.osgi.service.event.Event;

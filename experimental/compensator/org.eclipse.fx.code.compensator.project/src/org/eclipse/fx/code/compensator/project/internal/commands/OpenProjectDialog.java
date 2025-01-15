@@ -15,7 +15,7 @@ package org.eclipse.fx.code.compensator.project.internal.commands;
 import java.util.Collections;
 import java.util.List;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.e4.core.di.annotations.Execute;
 import org.eclipse.fx.code.compensator.model.workbench.Project;

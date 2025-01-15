@@ -19,7 +19,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.ListIterator;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.core.commands.ParameterizedCommand;
 import org.eclipse.core.commands.contexts.Context;

@@ -15,7 +15,7 @@ package org.eclipse.fx.core.text;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.jdt.annotation.NonNull;
 import org.eclipse.jdt.annotation.Nullable;

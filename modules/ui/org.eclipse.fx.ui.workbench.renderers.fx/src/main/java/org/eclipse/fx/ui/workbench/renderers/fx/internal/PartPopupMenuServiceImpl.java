@@ -15,7 +15,7 @@ package org.eclipse.fx.ui.workbench.renderers.fx.internal;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.Control;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.e4.ui.model.application.ui.basic.MPart;
 import org.eclipse.e4.ui.model.application.ui.menu.MMenu;

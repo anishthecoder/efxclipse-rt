@@ -14,7 +14,7 @@ package org.eclipse.fx.code.editor.asciidoc.fx.e4;
 
 import java.util.List;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.e4.core.contexts.IEclipseContext;
 import org.eclipse.e4.core.di.annotations.Optional;

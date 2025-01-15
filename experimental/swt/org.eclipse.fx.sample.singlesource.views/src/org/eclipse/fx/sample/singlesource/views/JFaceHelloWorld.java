@@ -14,7 +14,7 @@ package org.eclipse.fx.sample.singlesource.views;
 
 import java.io.File;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.jface.resource.JFaceResources;

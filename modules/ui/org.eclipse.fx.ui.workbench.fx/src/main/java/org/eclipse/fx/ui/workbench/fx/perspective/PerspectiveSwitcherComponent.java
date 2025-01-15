@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.ui.workbench.fx.perspective;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 import org.eclipse.e4.core.contexts.ContextInjectionFactory;
 import org.eclipse.e4.core.contexts.IEclipseContext;

@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.code.compensator.app;
 
-import javax.inject.Named;
+import jakarta.inject.Named;
 
 import org.eclipse.core.runtime.preferences.IEclipsePreferences;
 import org.eclipse.e4.core.di.annotations.Execute;

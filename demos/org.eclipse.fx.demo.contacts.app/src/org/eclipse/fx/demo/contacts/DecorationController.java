@@ -21,7 +21,7 @@ import javafx.scene.control.ToolBar;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 public class DecorationController {
 	private double mouseDragOffsetX = 0;

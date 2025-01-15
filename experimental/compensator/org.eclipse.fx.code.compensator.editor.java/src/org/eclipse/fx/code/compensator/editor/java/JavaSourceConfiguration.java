@@ -18,7 +18,7 @@ import java.util.Optional;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.fx.code.compensator.editor.Input;
 import org.eclipse.fx.code.compensator.editor.ProposalComputer;

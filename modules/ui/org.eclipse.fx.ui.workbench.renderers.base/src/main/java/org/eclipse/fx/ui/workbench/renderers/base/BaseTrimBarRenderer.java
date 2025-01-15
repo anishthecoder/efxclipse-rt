@@ -16,7 +16,7 @@ package org.eclipse.fx.ui.workbench.renderers.base;
 import java.util.Collection;
 import java.util.Iterator;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 import org.eclipse.e4.core.services.events.IEventBroker;
 import org.eclipse.e4.ui.model.application.ui.MUIElement;

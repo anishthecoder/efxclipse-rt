@@ -12,8 +12,8 @@
  *******************************************************************************/
 package org.eclipse.fx.ui.workbench.renderers.base.addons;
 
-import javax.annotation.PostConstruct;
-import javax.inject.Inject;
+import jakarta.annotation.PostConstruct;
+import jakarta.inject.Inject;
 
 import org.eclipse.e4.core.services.events.IEventBroker;
 import org.eclipse.e4.ui.model.application.MApplication;

@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.core.slf4j;
 
-import javax.inject.Provider;
+import jakarta.inject.Provider;
 
 import org.eclipse.fx.core.RankedService;
 import org.eclipse.fx.core.log.Logger;

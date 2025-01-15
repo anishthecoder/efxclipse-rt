@@ -15,7 +15,7 @@ package org.eclipse.fx.ui.workbench.renderers.base;
 import java.util.Collection;
 import java.util.Collections;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 import org.eclipse.e4.core.contexts.IEclipseContext;
 import org.eclipse.e4.core.services.contributions.IContributionFactory;

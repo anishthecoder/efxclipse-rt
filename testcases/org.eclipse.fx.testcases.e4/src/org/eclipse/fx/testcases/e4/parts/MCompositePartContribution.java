@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.testcases.e4.parts;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 import org.eclipse.e4.ui.model.application.ui.basic.MCompositePart;
 

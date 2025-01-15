@@ -15,9 +15,9 @@ package org.eclipse.fx.code.editor.asciidoc.fx;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
-import javax.inject.Inject;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
+import jakarta.inject.Inject;
 
 import org.eclipse.e4.core.di.annotations.Optional;
 import org.eclipse.fx.code.editor.Constants;

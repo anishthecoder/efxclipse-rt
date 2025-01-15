@@ -16,7 +16,7 @@ import java.util.WeakHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.logging.Handler;
 
-import javax.inject.Provider;
+import jakarta.inject.Provider;
 
 import org.eclipse.fx.core.RankedService;
 import org.eclipse.fx.core.log.Logger;

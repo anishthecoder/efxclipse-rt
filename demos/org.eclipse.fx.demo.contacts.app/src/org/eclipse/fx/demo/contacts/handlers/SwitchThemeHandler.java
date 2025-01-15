@@ -13,7 +13,7 @@
  ******************************************************************************/
 package org.eclipse.fx.demo.contacts.handlers;
 
-import javax.inject.Named;
+import jakarta.inject.Named;
 
 import org.eclipse.e4.core.di.annotations.Execute;
 import org.eclipse.e4.core.di.annotations.Optional;

@@ -15,7 +15,7 @@ package org.eclipse.fx.testcases.e4.parts;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.shape.Rectangle;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 import org.eclipse.e4.ui.di.Focus;
 

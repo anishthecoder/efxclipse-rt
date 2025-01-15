@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.ui.workbench.base.restart;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.e4.ui.workbench.IWorkbench;
 import org.eclipse.fx.ui.services.restart.RestartService;

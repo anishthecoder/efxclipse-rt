@@ -13,7 +13,7 @@
 package org.eclipse.fx.testcases.e4.parts;
 
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 import javafx.collections.FXCollections;
 import javafx.scene.control.Label;

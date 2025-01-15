@@ -26,8 +26,8 @@ import javafx.scene.control.Tooltip;
 import javafx.scene.layout.BorderPane;
 
 
-import javax.annotation.PostConstruct;
-import javax.inject.Inject;
+import jakarta.annotation.PostConstruct;
+import jakarta.inject.Inject;
 
 
 import org.eclipse.fx.code.compensator.project.ProjectService.ToolbarElement;

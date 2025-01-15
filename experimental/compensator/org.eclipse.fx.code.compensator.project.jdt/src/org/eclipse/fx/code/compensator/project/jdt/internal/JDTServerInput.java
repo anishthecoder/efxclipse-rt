@@ -19,8 +19,8 @@ import java.util.Collections;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
-import javax.inject.Inject;
-import javax.inject.Named;
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 
 import org.eclipse.fx.code.compensator.editor.ContentTypeProvider;
 import org.eclipse.fx.code.compensator.editor.Input;

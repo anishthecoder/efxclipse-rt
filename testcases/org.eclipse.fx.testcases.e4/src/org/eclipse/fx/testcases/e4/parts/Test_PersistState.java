@@ -15,7 +15,7 @@ package org.eclipse.fx.testcases.e4.parts;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 import org.eclipse.e4.ui.di.PersistState;
 import org.eclipse.e4.ui.model.application.ui.basic.MPart;

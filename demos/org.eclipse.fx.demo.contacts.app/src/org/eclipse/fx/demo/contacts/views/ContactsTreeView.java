@@ -22,7 +22,7 @@ import javafx.scene.control.SelectionMode;
 import javafx.scene.control.TreeView;
 import javafx.scene.layout.BorderPane;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.e4.ui.model.application.MApplication;
 import org.eclipse.emf.edit.domain.EditingDomain;

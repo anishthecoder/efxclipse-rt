@@ -14,7 +14,7 @@ package org.eclipse.fx.ui.workbench.base.restart;
 
 import java.util.function.Consumer;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.e4.core.di.annotations.Creatable;
 import org.eclipse.e4.core.di.annotations.Optional;

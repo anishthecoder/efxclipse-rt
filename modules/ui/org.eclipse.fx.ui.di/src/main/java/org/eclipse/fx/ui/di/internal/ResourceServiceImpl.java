@@ -21,8 +21,8 @@ import java.util.Map;
 
 import javafx.scene.image.Image;
 
-import javax.annotation.PreDestroy;
-import javax.inject.Inject;
+import jakarta.annotation.PreDestroy;
+import jakarta.inject.Inject;
 
 import org.eclipse.fx.core.log.LoggerCreator;
 import org.eclipse.fx.ui.di.ResourceProviderService;

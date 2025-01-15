@@ -17,7 +17,7 @@ import java.io.IOException;
 import javafx.scene.Node;
 import javafx.scene.layout.BorderPane;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 import org.eclipse.fx.ui.di.FXMLBuilder;
 import org.eclipse.fx.ui.di.FXMLLoader;

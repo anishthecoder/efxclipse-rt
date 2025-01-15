@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.code.editor.e4.handlers;
 
-import javax.inject.Named;
+import jakarta.inject.Named;
 
 import org.eclipse.e4.core.contexts.ContextInjectionFactory;
 import org.eclipse.e4.core.contexts.IEclipseContext;

@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.sample.singlesource.views;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.graphics.Font;

@@ -15,7 +15,7 @@ package org.eclipse.fx.core.text;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAccessor;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.jdt.annotation.NonNull;
 import org.eclipse.jdt.annotation.Nullable;

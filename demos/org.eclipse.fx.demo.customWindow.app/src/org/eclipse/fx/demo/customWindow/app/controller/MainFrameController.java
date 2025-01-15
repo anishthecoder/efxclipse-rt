@@ -15,7 +15,7 @@ package org.eclipse.fx.demo.customWindow.app.controller;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.fx.core.event.EventBus;
 import org.eclipse.fx.demo.customWindow.app.CustomWindowDemoConstants;

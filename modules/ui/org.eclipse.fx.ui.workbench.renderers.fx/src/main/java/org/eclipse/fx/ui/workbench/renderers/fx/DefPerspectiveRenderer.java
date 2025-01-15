@@ -15,7 +15,7 @@ package org.eclipse.fx.ui.workbench.renderers.fx;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import javafx.scene.Node;
 import javafx.scene.layout.Pane;

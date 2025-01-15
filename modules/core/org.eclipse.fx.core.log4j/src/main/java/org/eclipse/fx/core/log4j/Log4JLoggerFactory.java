@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.core.log4j;
 
-import javax.inject.Provider;
+import jakarta.inject.Provider;
 
 import org.apache.log4j.Appender;
 import org.apache.log4j.PropertyConfigurator;

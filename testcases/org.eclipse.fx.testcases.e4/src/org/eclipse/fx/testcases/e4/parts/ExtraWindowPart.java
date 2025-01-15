@@ -15,7 +15,7 @@ package org.eclipse.fx.testcases.e4.parts;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 public class ExtraWindowPart {
 	@PostConstruct

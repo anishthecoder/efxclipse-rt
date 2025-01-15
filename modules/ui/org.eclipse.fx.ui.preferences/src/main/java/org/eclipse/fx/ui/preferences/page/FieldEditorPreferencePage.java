@@ -20,7 +20,7 @@ import java.util.Optional;
 import java.util.concurrent.Callable;
 import java.util.stream.Collectors;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 import org.eclipse.fx.core.Memento;
 import org.eclipse.fx.core.MultiStatus;

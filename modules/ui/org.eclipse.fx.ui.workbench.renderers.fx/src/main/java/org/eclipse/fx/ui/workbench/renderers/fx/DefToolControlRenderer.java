@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.ui.workbench.renderers.fx;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import javafx.scene.Group;
 import javafx.scene.Parent;

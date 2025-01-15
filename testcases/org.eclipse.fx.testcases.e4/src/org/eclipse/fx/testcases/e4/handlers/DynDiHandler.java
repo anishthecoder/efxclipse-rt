@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.testcases.e4.handlers;
 
-import javax.inject.Named;
+import jakarta.inject.Named;
 
 import org.eclipse.e4.core.di.annotations.CanExecute;
 import org.eclipse.e4.core.di.annotations.Execute;

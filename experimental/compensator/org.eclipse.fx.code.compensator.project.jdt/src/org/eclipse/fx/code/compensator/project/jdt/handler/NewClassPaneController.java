@@ -15,8 +15,8 @@ package org.eclipse.fx.code.compensator.project.jdt.handler;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import javax.inject.Inject;
-import javax.inject.Named;
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 
 import org.eclipse.fx.code.compensator.project.ProjectNavigatorItem;
 import org.eclipse.fx.code.compensator.project.jdt.internal.JDTPackageItem;

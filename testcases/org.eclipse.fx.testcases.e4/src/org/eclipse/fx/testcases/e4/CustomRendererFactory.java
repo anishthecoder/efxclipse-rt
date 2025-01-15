@@ -12,7 +12,7 @@
  *******************************************************************************/
 package org.eclipse.fx.testcases.e4;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.eclipse.e4.core.contexts.IEclipseContext;
 import org.eclipse.fx.ui.workbench.renderers.fx.DefWorkbenchRendererFactory;

@@ -18,7 +18,7 @@ import java.util.Stack;
 
 import javafx.collections.ObservableList;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import jdk.nashorn.internal.ir.FunctionNode;
 import jdk.nashorn.internal.ir.IdentNode;
