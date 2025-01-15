@@ -20,7 +20,6 @@ Require-Bundle: org.eclipse.e4.ui.model.workbench;bundle-version="1.1.0.v2014051
  org.eclipse.fx.ui.services,
  org.eclipse.jdt.annotation;bundle-version="2.0.0";resolution:=optional,
  org.eclipse.e4.ui.di,
- javax.inject,
  org.eclipse.e4.ui.services,
  org.eclipse.fx.code.compensator.editor,
  org.eclipse.e4.core.services,
@@ -28,5 +27,5 @@ Require-Bundle: org.eclipse.e4.ui.model.workbench;bundle-version="1.1.0.v2014051
 Bundle-RequiredExecutionEnvironment: JavaSE-21
 Service-Component: OSGI-INF/services/projectsetupcf.xml,OSGI-INF/services/projectextractorcf.xml,OSGI-INF/services/projectstylesheet.xml,
  OSGI-INF/services/projectinstancecf.xml
-Import-Package: javax.inject;version="1.0.0"
+Import-Package: jakarta.inject
 Bundle-ActivationPolicy: lazy

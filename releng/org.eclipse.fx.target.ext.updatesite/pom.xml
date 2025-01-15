@@ -24,50 +24,27 @@
 		<relativePath>../org.eclipse.fx.target.ext.releng/pom.xml</relativePath>
 		<version>3.9.0-SNAPSHOT</version>
 	</parent>
-	
-	<properties>
-		<p2repo-zip-path>${project.build.directory}/site_assembly.zip</p2repo-zip-path>
-	</properties>
 
-	<!-- profiles>
-		<profile>
-			<id>build-server</id>
-			<build>
-				<plugins>
-					<plugin>
-						<artifactId>maven-antrun-plugin</artifactId>
-						<executions>
-							<execution>
-								<id>deploy</id>
-								<phase>install</phase>
-								<goals>
-									<goal>run</goal>
-								</goals>
-								<configuration>
-									<tasks>
-										<delete includeemptydirs="false">
-											<fileset dir="${download-publish-path}">
-												<include name="**" />
-											</fileset>
-										</delete>
-										<copy includeemptydirs="false" todir="${download-publish-path}">
-											<fileset dir="target/repository">
-												<include name="**" />
-											</fileset>
-										</copy>
-										<copy includeemptydirs="false" todir="${download-publish-path}">
-											<fileset dir="target">
-												<include name="org.eclipse.fx.target.ext.updatesite-*-SNAPSHOT.zip" />
-											</fileset>
-										</copy>
-									</tasks>
-								</configuration>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-p2-repository-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<includeAllDependencies>true</includeAllDependencies>
+					<includeAllSources>true</includeAllSources>
+				</configuration>
+				<executions>
+					<execution>
+						<id>archive-repository</id>
+						<goals>
+							<goal>archive-repository</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>

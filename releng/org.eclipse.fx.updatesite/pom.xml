@@ -16,7 +16,7 @@
 	<name>e(fx)clipse - Runtime - Updatesite</name>
 	<groupId>org.eclipse.fx.runtime</groupId>
 	<artifactId>org.eclipse.fx.updatesite</artifactId>
-	<packaging>eclipse-update-site</packaging>
+	<packaging>eclipse-repository</packaging>
 
 	<parent>
 		<groupId>org.eclipse.fx</groupId>
@@ -26,85 +26,26 @@
 	</parent>
 
 	<properties>
-		<p2repo-zip-path>${project.build.directory}/site_assembly.zip</p2repo-zip-path>
+		<p2repo-zip-name>site_assembly</p2repo-zip-name>
 	</properties>
 
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
-				<artifactId>tycho-packaging-plugin</artifactId>
+				<artifactId>tycho-p2-repository-plugin</artifactId>
+				<version>${tycho-version}</version>
 				<configuration>
-					<archiveSite>true</archiveSite>
+					<includeAllDependencies>true</includeAllDependencies>
+					<includeAllSources>true</includeAllSources>
+					<finalName>${p2repo-zip-name}</finalName>
 				</configuration>
-			</plugin>
-
-			<!--  plugin>
-				<groupId>org.apache.felix</groupId>
-				<artifactId>maven-bundle-plugin</artifactId>
-				<version>2.5.3</version>
 				<executions>
 					<execution>
-						<id>build-p2-obr-index</id>
-						<phase>package</phase>
-						<configuration>
-							<urlTemplate>plugins/%f</urlTemplate>
-							<mavenRepository>${project.build.directory}/site/plugins</mavenRepository>
-							<obrRepository>${project.build.directory}/site/repository.xml</obrRepository>
-						</configuration>
+						<id>archive-repository</id>
 						<goals>
-							<goal>index</goal>
+							<goal>archive-repository</goal>
 						</goals>
-					</execution>
-					<execution>
-						<id>build-obr-index</id>
-						<phase>package</phase>
-						<configuration>
-							<urlTemplate>%f</urlTemplate>
-							<mavenRepository>${project.build.directory}/site/plugins</mavenRepository>
-							<obrRepository>${project.build.directory}/site/plugins/repository.xml</obrRepository>
-						</configuration>
-						<goals>
-							<goal>index</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin-->
-
-			<plugin>
-				<groupId>at.bestsolution</groupId>
-				<artifactId>bindex-maven-plugin</artifactId>
-				<version>3.0.0</version>
-				<executions>
-					<execution>
-						<id>build-p2-obr-index</id>
-						<phase>package</phase>
-						<goals>
-							<goal>bindex</goal>
-						</goals>
-						<configuration>
-							<repositoryName>e(fx)clipse runtime repository</repositoryName>
-							<repoDir>${project.build.directory}/site/plugins</repoDir>
-							<indexFile>${project.build.directory}/site/repository.xml.gz</indexFile>
-							<compressed>true</compressed>
-							<pretty>false</pretty>
-							<rootUrl>${project.build.directory}/site/</rootUrl>
-						</configuration>
-					</execution>
-					<execution>
-						<id>build-p2-obr-index-2</id>
-						<phase>package</phase>
-						<goals>
-							<goal>bindex</goal>
-						</goals>
-						<configuration>
-							<repositoryName>e(fx)clipse runtime repository</repositoryName>
-							<repoDir>${project.build.directory}/site/plugins</repoDir>
-							<indexFile>${project.build.directory}/site/plugins/repository.xml.gz</indexFile>
-							<compressed>true</compressed>
-							<pretty>false</pretty>
-							<rootUrl>${project.build.directory}/site/plugins/</rootUrl>
-						</configuration>
 					</execution>
 				</executions>
 			</plugin>
@@ -117,11 +58,11 @@
 						<id>create-obr-archive</id>
 						<phase>package</phase>
 						<configuration>
-							<tasks>
+							<target>
 								<zip 	destfile="${project.build.directory}/bindex-repository.zip">
-									<fileset dir="${project.build.directory}/site/plugins" />
+									<fileset dir="${project.build.directory}/repository/plugins" />
 								</zip>
-							</tasks>
+							</target>
 						</configuration>
 						<goals>
 							<goal>run</goal>
@@ -131,41 +72,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<!-- profiles>
-		<profile>
-			<id>build-server</id>
-			<build>
-				<plugins>
-					<plugin>
-						<artifactId>maven-antrun-plugin</artifactId>
-						<executions>
-							<execution>
-								<id>deploy</id>
-								<phase>install</phase>
-								<goals>
-									<goal>run</goal>
-								</goals>
-								<configuration>
-									<tasks>
-										<delete includeemptydirs="false">
-											<fileset dir="${download-publish-path}">
-												<include name="**" />
-											</fileset>
-										</delete>
-										<copy includeemptydirs="false" todir="${download-publish-path}">
-											<fileset dir="target">
-												<include name="**" />
-											</fileset>
-										</copy>
-									</tasks>
-								</configuration>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles -->
 
 </project>

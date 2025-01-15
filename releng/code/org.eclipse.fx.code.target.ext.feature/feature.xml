@@ -30,18 +30,10 @@
 
    <plugin
          id="org.antlr.runtime"
-         version="3.2.0.v201101311130"/>
-
-   <plugin
-         id="org.antlr.runtime.source"
-         version="3.2.0.v201101311130"/>
-
-   <plugin
-         id="org.eclipse.core.variables"
          version="0.0.0"/>
 
    <plugin
-         id="org.eclipse.core.variables.source"
+         id="org.eclipse.core.variables"
          version="0.0.0"/>
 
    <plugin
@@ -49,15 +41,7 @@
          version="0.0.0"/>
 
    <plugin
-         id="org.eclipse.debug.core.source"
-         version="0.0.0"/>
-
-   <plugin
          id="org.eclipse.emf.codegen"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.eclipse.emf.codegen.source"
          version="0.0.0"/>
 
    <plugin
@@ -65,15 +49,7 @@
          version="0.0.0"/>
 
    <plugin
-         id="org.eclipse.emf.codegen.ecore.source"
-         version="0.0.0"/>
-
-   <plugin
          id="org.eclipse.emf.mwe.core"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.eclipse.emf.mwe.core.source"
          version="0.0.0"/>
 
    <plugin
@@ -81,15 +57,7 @@
          version="0.0.0"/>
 
    <plugin
-         id="org.eclipse.emf.mwe2.runtime.source"
-         version="0.0.0"/>
-
-   <plugin
          id="org.eclipse.emf.mwe2.language"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.eclipse.emf.mwe2.language.source"
          version="0.0.0"/>
 
    <plugin
@@ -97,15 +65,7 @@
          version="0.0.0"/>
 
    <plugin
-         id="org.eclipse.xtext.xtext.generator.source"
-         version="0.0.0"/>
-
-   <plugin
          id="org.eclipse.xtend"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.eclipse.xtend.source"
          version="0.0.0"/>
 
    <plugin
@@ -113,15 +73,7 @@
          version="0.0.0"/>
 
    <plugin
-         id="org.eclipse.xpand.source"
-         version="0.0.0"/>
-
-   <plugin
          id="org.eclipse.xtend.typesystem.emf"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.eclipse.xtend.typesystem.emf.source"
          version="0.0.0"/>
 
    <plugin
@@ -129,15 +81,7 @@
          version="0.0.0"/>
 
    <plugin
-         id="org.eclipse.xtext.ecore.source"
-         version="0.0.0"/>
-
-   <plugin
          id="org.eclipse.emf.mwe.utils"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.eclipse.emf.mwe.utils.source"
          version="0.0.0"/>
 
    <plugin
@@ -145,23 +89,11 @@
          version="0.0.0"/>
 
    <plugin
-         id="org.eclipse.emf.mwe2.launch.source"
-         version="0.0.0"/>
-
-   <plugin
          id="org.eclipse.jdt.core"
          version="0.0.0"/>
 
    <plugin
-         id="org.eclipse.jdt.core.source"
-         version="0.0.0"/>
-
-   <plugin
          id="org.eclipse.jdt.debug"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.eclipse.jdt.debug.source"
          version="0.0.0"/>
 
    <plugin
@@ -174,15 +106,6 @@
          version="0.0.0"/>
 
    <plugin
-         id="org.eclipse.jdt.launching.macosx.source"
-         os="macosx"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.eclipse.jdt.launching.source"
-         version="0.0.0"/>
-
-   <plugin
          id="org.eclipse.xtext"
          version="0.0.0"/>
 
@@ -191,19 +114,7 @@
          version="0.0.0"/>
 
    <plugin
-         id="org.eclipse.xtext.common.types.source"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.eclipse.xtext.source"
-         version="0.0.0"/>
-
-   <plugin
          id="org.eclipse.xtext.util"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.eclipse.xtext.util.source"
          version="0.0.0"/>
 
    <plugin
@@ -211,15 +122,7 @@
          version="0.0.0"/>
 
    <plugin
-         id="org.eclipse.xtext.xbase.source"
-         version="0.0.0"/>
-
-   <plugin
          id="org.objectweb.asm"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.objectweb.asm.source"
          version="0.0.0"/>
 
    <plugin
@@ -231,19 +134,7 @@
          version="0.0.0"/>
 
    <plugin
-         id="org.eclipse.m2e.jdt.source"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.eclipse.m2e.maven.indexer"
-         version="0.0.0"/>
-
-   <plugin
          id="org.eclipse.m2e.maven.runtime"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.eclipse.m2e.maven.runtime.slf4j.simple"
          version="0.0.0"/>
 
    <plugin
@@ -251,31 +142,15 @@
          version="0.0.0"/>
 
    <plugin
-         id="org.eclipse.m2e.core.source"
-         version="0.0.0"/>
-
-   <plugin
          id="org.eclipse.m2e.workspace.cli"
          version="0.0.0"/>
 
    <plugin
-         id="org.eclipse.m2e.lifecyclemapping.defaults"
-         version="0.0.0"/>
+         id="jakarta.annotation-api"
+         version="2.1.1"/>
 
    <plugin
-         id="javax.annotation"
-         version="0.0.0"/>
-
-   <plugin
-         id="javax.annotation.source"
-         version="0.0.0"/>
-
-   <plugin
-         id="io.github.classgraph"
-         version="0.0.0"/>
-
-   <plugin
-         id="io.github.classgraph.source"
+         id="io.github.classgraph.classgraph"
          version="0.0.0"/>
 
 </feature>

@@ -228,11 +228,11 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
 
    <plugin
          id="org.antlr.runtime"
-         version="3.2.0.v201101311130"/>
+         version="0.0.0"/>
 
    <plugin
          id="org.antlr.runtime.source"
-         version="3.2.0.v201101311130"/>
+         version="0.0.0"/>
 
    <plugin
          id="org.objectweb.asm"
@@ -437,11 +437,11 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
          version="0.0.0"/>
 
    <plugin
-         id="io.github.classgraph"
+         id="io.github.classgraph.classgraph"
          version="0.0.0"/>
 
    <plugin
-         id="io.github.classgraph.source"
+         id="io.github.classgraph.classgraph.source"
          version="0.0.0"/>
 
 </feature>

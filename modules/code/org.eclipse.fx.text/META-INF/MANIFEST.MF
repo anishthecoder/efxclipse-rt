@@ -10,4 +10,3 @@ Export-Package: org.eclipse.fx.text.hover;version="3.9.0",
 Require-Bundle: org.eclipse.text;bundle-version="3.5.300",
  org.eclipse.equinox.common;bundle-version="3.6.200"
 Bundle-Vendor: Eclipse.org
-Import-Package: org.eclipse.jface.text.rules

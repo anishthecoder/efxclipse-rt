@@ -14,9 +14,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<name>e(fx)clipse - Runtime - Updatesite</name>
-	<groupId>org.eclipse.fx.shared</groupId>
 	<artifactId>org.eclipse.fx.shared.updatesite</artifactId>
-	<packaging>eclipse-update-site</packaging>
+	<packaging>eclipse-repository</packaging>
 
 	<parent>
 		<groupId>org.eclipse.fx.shared</groupId>
@@ -26,55 +25,29 @@
 	</parent>
 
 	<properties>
-		<p2repo-zip-path>${project.build.directory}/site_assembly.zip</p2repo-zip-path>
+		<p2repo-zip-name>site_assembly</p2repo-zip-name>
 	</properties>
 
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
-				<artifactId>tycho-packaging-plugin</artifactId>
+				<artifactId>tycho-p2-repository-plugin</artifactId>
+				<version>${tycho-version}</version>
 				<configuration>
-					<archiveSite>true</archiveSite>
+					<includeAllDependencies>false</includeAllDependencies>
+					<includeAllSources>true</includeAllSources>
+					<finalName>${p2repo-zip-name}</finalName>
 				</configuration>
+				<executions>
+					<execution>
+						<id>archive-repository</id>
+						<goals>
+							<goal>archive-repository</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
-
-	<!-- profiles>
-		<profile>
-			<id>build-server</id>
-			<build>
-				<plugins>
-					<plugin>
-						<artifactId>maven-antrun-plugin</artifactId>
-						<executions>
-							<execution>
-								<id>deploy</id>
-								<phase>install</phase>
-								<goals>
-									<goal>run</goal>
-								</goals>
-								<configuration>
-									<tasks>
-										<delete includeemptydirs="false">
-											<fileset dir="${download-publish-path}">
-												<include name="**" />
-											</fileset>
-										</delete>
-										<copy includeemptydirs="false" todir="${download-publish-path}">
-											<fileset dir="target">
-												<include name="**" />
-											</fileset>
-										</copy>
-									</tasks>
-								</configuration>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles -->
-
 </project>

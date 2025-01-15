@@ -231,7 +231,7 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
          version="0.0.0"/>
 
    <plugin
-         id="javax.inject"
+         id="jakarta.inject.jakarta.inject-api"
          version="0.0.0"/>
 
    <plugin
@@ -363,6 +363,10 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
          version="0.0.0"/>
 
    <plugin
+         id="org.eclipse.equinox.http.service.api"
+         version="0.0.0"/>
+
+   <plugin
          id="org.eclipse.equinox.launcher"
          version="0.0.0"/>
 
@@ -419,8 +423,8 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
          version="0.0.0"/>
 
    <plugin
-         id="javax.annotation"
-         version="0.0.0"/>
+         id="jakarta.annotation-api"
+         version="2.1.1"/>
 
    <plugin
          id="org.eclipse.e4.emf.xpath"

@@ -27,13 +27,12 @@
 	<version>3.9.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<properties>
-		<tycho-version>2.7.1</tycho-version>
-		<tycho-extras.version>2.7.1</tycho-extras.version>
+		<tycho-version>4.0.10</tycho-version>
+		<tycho-extras.version>4.0.10</tycho-extras.version>
 		<cbi-plugins.version>1.3.2</cbi-plugins.version>
 		<junit-version>4.8.1</junit-version>
 		<mockito-version>1.8.4</mockito-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<platform-version>[3.7,3.8)</platform-version>
 		<efx_shared_runtime>https://download.eclipse.org/efxclipse/runtime-shared-nightly/site/</efx_shared_runtime>
 		<efx_ext_site>https://download.eclipse.org/efxclipse/targets-nightly/</efx_ext_site>
 		<download-publish-path>/home/data/httpd/download.eclipse.org/efxclipse/runtime-nightly</download-publish-path>
@@ -133,9 +132,9 @@
 	<repositories>
 		<repository>
 			<!-- Only needed for SWT deps -->
-			<id>2022-09</id>
+			<id>2024-12</id>
 			<layout>p2</layout>
-			<url>https://download.eclipse.org/eclipse/updates/4.25/R-4.25-202208311800</url>
+			<url>https://download.eclipse.org/eclipse/updates/4.34/R-4.34-202411201800</url>
 		</repository>
 		<repository>
 			<id>base.target</id>
@@ -245,48 +244,48 @@
 				            <extraClasspathElement>
 								<groupId>org.openjfx</groupId>
 								<artifactId>javafx-base</artifactId>
-								<version>11</version>
+								<version>21.0.6</version>
 				            </extraClasspathElement>
 				            <extraClasspathElement>
 								<groupId>org.openjfx</groupId>
 								<artifactId>javafx-controls</artifactId>
-								<version>11</version>
+								<version>21.0.6</version>
 								<classifier>linux</classifier>
 				            </extraClasspathElement>
 				            <extraClasspathElement>
 								<groupId>org.openjfx</groupId>
 								<artifactId>javafx-fxml</artifactId>
-								<version>11</version>
+								<version>21.0.6</version>
 								<classifier>linux</classifier>
 				            </extraClasspathElement>
 				            <extraClasspathElement>
 								<groupId>org.openjfx</groupId>
 								<artifactId>javafx-graphics</artifactId>
-								<version>11</version>
+								<version>21.0.6</version>
 								<classifier>linux</classifier>
 				            </extraClasspathElement>
 				            <extraClasspathElement>
 								<groupId>org.openjfx</groupId>
 								<artifactId>javafx-media</artifactId>
-								<version>11</version>
+								<version>21.0.6</version>
 								<classifier>linux</classifier>
 				            </extraClasspathElement>
 				            <extraClasspathElement>
 								<groupId>org.openjfx</groupId>
 								<artifactId>javafx-swing</artifactId>
-								<version>11</version>
+								<version>21.0.6</version>
 								<classifier>linux</classifier>
 				            </extraClasspathElement>
 				            <extraClasspathElement>
 								<groupId>org.openjfx</groupId>
 								<artifactId>javafx-web</artifactId>
-								<version>11</version>
+								<version>21.0.6</version>
 								<classifier>linux</classifier>
 				            </extraClasspathElement>
 				            <extraClasspathElement>
 				            	<groupId>at.bestsolution.openjfx</groupId>
 								<artifactId>javafx-swt</artifactId>
-								<version>11</version>
+								<version>21.0.6</version>
 				            </extraClasspathElement>
         				</extraClasspathElements>
 					</configuration>

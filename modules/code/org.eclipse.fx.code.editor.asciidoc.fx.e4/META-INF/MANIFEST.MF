@@ -10,7 +10,7 @@ Require-Bundle: org.eclipse.e4.ui.model.workbench;bundle-version="1.1.100",
  org.eclipse.e4.core.di.annotations;bundle-version="1.4.0",
  org.eclipse.e4.ui.di;bundle-version="1.1.0",
  org.eclipse.e4.core.di;bundle-version="1.5.0"
-Import-Package: javax.inject,
+Import-Package: jakarta.inject,
  org.eclipse.fx.code.editor;version="3.9.0",
  org.eclipse.fx.code.editor.asciidoc;version="3.9.0",
  org.eclipse.fx.code.editor.fx.e4;version="3.9.0",
