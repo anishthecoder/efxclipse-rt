@@ -11,7 +11,6 @@
     Contributors:
         BestSolution.at - initial API and implementation
  -->
-
 <feature
       id="org.eclipse.fx.code.langs.feature"
       label="e(fx)clipse - Code Editing - Default Language Support"
@@ -31,30 +30,18 @@
 
    <plugin
          id="org.eclipse.fx.code.editor.fx.themes"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
+         version="0.0.0"/>
 
    <plugin
          id="org.eclipse.fx.code.editor.langs"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
+         version="0.0.0"/>
 
    <plugin
          id="org.eclipse.fx.code.editor.langs.contrib"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
+         version="0.0.0"/>
 
    <plugin
          id="org.eclipse.fx.code.editor.langs.themes"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
+         version="0.0.0"/>
 
 </feature>

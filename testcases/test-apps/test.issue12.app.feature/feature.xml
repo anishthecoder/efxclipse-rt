@@ -11,26 +11,26 @@
     Contributors:
         BestSolution.at - initial API and implementation
  -->
-
 <feature
-	id="test.issue12.app.feature"
-	label="TestIssue12 Application Feature"
-	version="1.0.0.qualifier"
-	provider-name="${BundleProject_bundleVendor}"
-	>
-		<description url="http://www.efxclipse.org">
-			TODO FILL WITH CONTENT
-		</description>
+      id="test.issue12.app.feature"
+      label="TestIssue12 Application Feature"
+      version="1.0.0.qualifier"
+      provider-name="${BundleProject_bundleVendor}">
 
-		<copyright url="http://www.efxclipse.org">
-			TODO FILL WITH CONTENT
-		</copyright>
+   <description url="http://www.efxclipse.org">
+      TODO FILL WITH CONTENT
+   </description>
 
-		<license url="http://www.efxclipse.org">
-			TODO FILL WITH CONTENT
-		</license>
+   <copyright url="http://www.efxclipse.org">
+      TODO FILL WITH CONTENT
+   </copyright>
 
-   		<plugin id="test.issue12.app" install-size="0" version="0.0.0" unpack="false" />
+   <license url="http://www.efxclipse.org">
+      TODO FILL WITH CONTENT
+   </license>
 
+   <plugin
+         id="test.issue12.app"
+         version="0.0.0"/>
 
 </feature>
