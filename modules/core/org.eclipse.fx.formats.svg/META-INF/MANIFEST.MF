@@ -6,7 +6,7 @@ Bundle-Version: 3.9.0.qualifier
 Bundle-ClassPath: .
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Export-Package: org.eclipse.fx.formats.svg.converter,
  org.eclipse.fx.formats.svg.handler,
  org.eclipse.fx.formats.svg.svg,

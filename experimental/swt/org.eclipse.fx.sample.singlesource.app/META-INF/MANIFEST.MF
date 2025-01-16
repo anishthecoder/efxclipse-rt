@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: My Sample App
 Bundle-SymbolicName: org.eclipse.fx.sample.singlesource.app; singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Require-Bundle: org.eclipse.fx.ui.workbench.fx,
  org.eclipse.e4.ui.model.workbench,
  org.eclipse.e4.core.services,
