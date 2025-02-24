@@ -43,4 +43,6 @@ Service-Component: OSGI-INF/services/org.eclipse.fx.core.adapter.internal.Adapte
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.eclipse.jdt.annotation;bundle-version="[2.0.0,3.0.0)";resolution:=optional,
  com.google.guava;bundle-version="21.0.0",
- jakarta.xml.bind-api;bundle-version="4.0.0"
+ jakarta.xml.bind-api;bundle-version="4.0.0",
+ com.sun.xml.bind.jaxb-core,
+ com.sun.xml.bind.jaxb-impl

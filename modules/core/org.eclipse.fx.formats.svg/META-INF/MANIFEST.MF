@@ -15,5 +15,7 @@ Export-Package: org.eclipse.fx.formats.svg.converter,
 Require-Bundle: org.eclipse.emf.ecore;visibility:=reexport,
  org.eclipse.xtext.xbase.lib,
  org.eclipse.jdt.annotation;bundle-version="[2.0.0,3.0.0)";resolution:=optional,
- jakarta.xml.bind-api;bundle-version="4.0.0"
+ jakarta.xml.bind-api;bundle-version="4.0.0",
+ com.sun.xml.bind.jaxb-core,
+ com.sun.xml.bind.jaxb-impl
 Bundle-ActivationPolicy: lazy
