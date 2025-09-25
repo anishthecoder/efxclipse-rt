@@ -260,6 +260,7 @@ public abstract class Dialog {
 		stage.setTitle(this.title);
 		stage.initOwner(this.parent);
 		stage.initModality(getModality());
+		stage.setOnCloseRequest( evt -> this.setReturnCode( CANCEL_BUTTON ) );
 		Parent content = createContents();
 
 		Pane rootContainer = getCustomWindowPane();
